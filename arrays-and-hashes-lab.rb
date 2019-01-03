@@ -73,3 +73,17 @@ pets = [
 # me.delete(:age)
 # me[:name] = "Joyous"
 # puts me
+
+#---------- EXERCISE 5 ----------#
+# COMPLETE :)
+# hash = {
+#     a: 100,
+#     b: 200,
+#     c: 300,
+#     d: 400
+# }
+# hash.each do |x, y|
+#     puts "The value of #{x} is #{y}"
+#     y += 50
+#     puts "The new value of #{x} is #{y}"
+# end
