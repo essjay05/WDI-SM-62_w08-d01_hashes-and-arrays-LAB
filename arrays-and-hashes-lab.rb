@@ -12,11 +12,10 @@ pets = [
     }
 ]
 
-p "My #{pets[1][:type]}'s name is #{pets[1][:name]}."
+# p "My #{pets[1][:type]}'s name is #{pets[1][:name]}."
 
-# pets.map! do |age|
-#     pets[age][:age].to_i += 1
-#     print "#{age}"
+# pets.each do |pet|
+#     pet[:age] += 1
 # end
 
 # p pets
@@ -44,3 +43,13 @@ p "My #{pets[1][:type]}'s name is #{pets[1][:name]}."
 # puts colors[colors.length-2]
 
 #---------- EXERCISE 3 ----------#
+friends = ["Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"]
+puts friends.count
+friends.each do |r|
+    if r.include? ("R")
+        puts r
+    else
+        r
+    end
+end
+
