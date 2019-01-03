@@ -11,7 +11,7 @@ pets = [
         age: 2
     }
 ]
-
+# COMPLETED :)
 # p "My #{pets[1][:type]}'s name is #{pets[1][:name]}."
 
 # pets.each do |pet|
@@ -45,11 +45,18 @@ pets = [
 #---------- EXERCISE 3 ----------#
 friends = ["Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"]
 puts friends.count
-friends.each do |r|
-    if r.include? ("R")
-        puts r
-    else
-        r
-    end
-end
+puts friends.count  {|friend| friend[0] == "R"}
 
+
+# friends.each do |r|
+#     if r.include? ("R")
+#         puts r
+#     else
+#         r
+#     end
+# end
+# friends << "Janice"
+# puts friends
+# friends.delete("Janice")
+# puts friends
+# COMPLETED :)
