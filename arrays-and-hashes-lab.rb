@@ -43,10 +43,9 @@ pets = [
 # puts colors[colors.length-2]
 
 #---------- EXERCISE 3 ----------#
-friends = ["Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"]
-puts friends.count
-puts friends.count  {|friend| friend[0] == "R"}
-
+# friends = ["Rachel", "Monica", "Phoebe", "Joey", "Chandler", "Ross"]
+# puts friends.count
+# puts friends.count  {|friend| friend[0] == "R"}
 
 # friends.each do |r|
 #     if r.include? ("R")
@@ -60,3 +59,17 @@ puts friends.count  {|friend| friend[0] == "R"}
 # friends.delete("Janice")
 # puts friends
 # COMPLETED :)
+
+#---------- EXERCISE 4 ----------#
+# COMPLETE :)
+# me = {
+#     name: "Joy",
+#     age: 34,
+#     hobbies: ["photography", "piano", "reading", "sketching"],
+#     likes_pizza?: true
+# }
+# me[:birthday] = "12/17/1984"
+# me[:hobbies].delete(me[:hobbies].last)
+# me.delete(:age)
+# me[:name] = "Joyous"
+# puts me
